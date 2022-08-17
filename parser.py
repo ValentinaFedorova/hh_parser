@@ -27,8 +27,8 @@ options = webdriver.ChromeOptions()
 
 # soup = BeautifulSoup(data.text, 'html.parser')
 
-driver = webdriver.Chrome(executable_path="/Users/romanfedorov/Documents/my_projects/hh_parser/chromedriver", options=options) 
-subdriver = webdriver.Chrome(executable_path="/Users/romanfedorov/Documents/my_projects/hh_parser/chromedriver", options=options) 
+driver = webdriver.Chrome(executable_path="/Documents/my_projects/hh_parser/chromedriver", options=options) 
+subdriver = webdriver.Chrome(executable_path="/Documents/my_projects/hh_parser/chromedriver", options=options) 
 
 try:
     driver.get(url_addr)
